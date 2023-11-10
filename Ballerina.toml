@@ -1,0 +1,15 @@
+[package]
+org = "isuruuy"
+name = "uscoretest"
+version = "0.1.0"
+distribution = "2201.8.2"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org="healthcare"
+name="uscore"
+version="1.0.0"
+repository="local"
+
